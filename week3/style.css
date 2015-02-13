@@ -9,6 +9,12 @@ h1	{
 	font-style: Helvetica, serif;
 
 }
+h2	{
+	font-size:24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
 #slogan	{
 	font-size:30px;
 	font-weight:bold;
@@ -26,6 +32,15 @@ h1	{
 #titleB	{
 
 }
+
+ol {
+	list-style-position:inside;
+	font-size:20px;
+	font-style:italic;
+	font-weight:normal;
+
+
+}
 ul	{
 	list-style-position:inside;
 	font-size:22px;
@@ -37,7 +52,7 @@ ul	{
 	text-align:center;
 }
 a[href="mailto:feteezuk@gmail.com"] {
-	color:black;
+	color:blue;
 	text-align: justify;
 	position: relative;
 	left: 20px;
