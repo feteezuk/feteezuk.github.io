@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+	background-color: #01aebf;
+	color: black;
+
+}
+h1	{
+	font-size:40px;
+	font-style: Helvetica, serif;
+
+}
+#slogan	{
+	font-size:30px;
+	font-weight:bold;
+	text-decoration:underline;
+	font-style:italic;
+}
+#slogan1	{
+	font-size:22px;
+}
+
+.class	{
+	font-size:24px;
+
+}
+#titleB	{
+
+}
+ul	{
+	list-style-position:inside;
+	font-size:22px;
+	font-weight: bold;
+	font-style:normal;
+	text-transform: uppercase;
+}
+.center	{
+	text-align:center;
+}
+a[href="mailto:feteezuk@gmail.com"] {
+	color:black;
+	text-align: justify;
+	position: relative;
+	left: 20px;
+}
+	
