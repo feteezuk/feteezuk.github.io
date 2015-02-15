@@ -1,0 +1,34 @@
+body {
+	text-align: center;
+	color:white;
+	background-color: black;
+}
+h2	{
+	line-height:16px;
+	color:#eff9e5;
+	text-align: center;
+}
+
+h1 {
+	text-align:center;
+	text-decoration: underline;
+	text-transform:uppercase;
+	font-family:helvetica, serif;
+	font-weight:900px;
+	font-size:60px;
+	color:#c5d8d5;
+}
+.weekly 	{
+	font-family: Arial, Sans-serif;
+	font-size:60px ;
+	color:#07C3FF;
+}
+.class1 {
+	text-align:center;
+	font-family:Arial, sans-serif;
+	color: #c5d8d5;
+	text-decoration: underline;
+	font-size:35px;
+	line-height: 50%;
+}
+
