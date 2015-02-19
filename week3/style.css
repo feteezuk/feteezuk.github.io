@@ -14,43 +14,72 @@ h2	{
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: underline;
+	width:50%;
+	margin-right:auto;
+	margin-left:50%;
 }
-#slogan	{
-	font-size:30px;
-	font-weight:bold;
-	text-decoration:underline;
-	font-style:italic;
+h3 {
+	margin-left: 40px;
+	margin-right:800px;
+	margin-top:20px;
+	padding:15px;
+	max-width: 300px;
+}
+#meet	{
+	font-size: 250%;
+background-color: yellow;
+width: 40%;
+line-height: 2em;
+margin-left: 40px;
+text-align: center;
+padding: 3%;
 }
 #slogan1	{
 	font-size:22px;
-}
-
-.class	{
-	font-size:24px;
-
-}
-#titleB	{
-
+	width:400px;
+	margin-top: -40px;
+	line-height: 1.5em;
+	border-right: 2px solid;
+	border-left:2px solid;
+	padding:10px;
 }
 
 ol {
-	list-style-position:inside;
+
+	line-height:1.5em;
+	list-style-position:outside;
+	background-color:yellow;
+	width:20%;
+	margin-right:100%;
+	margin-left:60%;
+	margin-bottom:100%;
+	margin-top:-24%;
 	font-size:20px;
 	font-style:italic;
 	font-weight:normal;
-
-
 }
+
+
+.abe 	{
+	
+	}
+
 ul	{
 	list-style-position:inside;
-	font-size:22px;
+	font-size:30px;
 	font-weight: bold;
 	font-style:normal;
 	text-transform: uppercase;
+	border-width: thick, black;
+	width:50%;
+	margin-left:230%;
+	margin-top:-30%;
+	padding:40%;
+	line-height: 200%;
+	text-decoration: underline;
 }
-.center	{
-	text-align:center;
-}
+
+
 a[href="mailto:feteezuk@gmail.com"] {
 	color:blue;
 	text-align: justify;
