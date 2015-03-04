@@ -12,13 +12,12 @@ h1	{
 	font-size:40px;
 	/* font-style: Helvetica, serif; */
 	font-family: 'Luckiest Guy', cursive;
-	
+	margin-top: 50px;
+margin-bottom: 0px;
 	font-weight:bold;
-	font-size: 48px;
-	text-decoration: underline;
-
-
-}
+	font-size: 60px;
+	
+	}
 h2	{
 	font-size:24px;
 	font-weight: bold;
@@ -39,67 +38,37 @@ h3 {
 	padding:15px;
 	max-width: 300px;
 }
-#seagull	{
-	height: 400px;
-padding: 35px;
-margin-top: -380px;
-margin-left: 403px;
-}
-#fitness {
-	
-	margin-left: 600px;
-margin-top: -420px;
-}
 
-#nutri	{
-	margin-left: -650px;
-margin-top: -30px;
-}
-#meet	{
-	font-family: 'Luckiest Guy', cursive;
-	font-size: 250%;
-background-color:yellow;
-width: 80%;
-line-height: 2em;
-padding: 5px%;
-margin-left: 92px;
-margin-top: 56px;
-}
-#slogan1	{
-	
-	font-size:22px;
-	width:400px;
-	margin-top: -40px;
-	line-height: 1.5em;
-	border-right: 2px solid;
-	border-left:2px solid;
-	padding:10px;
-}
-#find	{
-	background-image:url("IMG_2279.JPG");
+nav {
+	width:690px;
+	margin:0px auto;
 }
 
 
-#back {
-	
-	font-size:40px;
+ul	{
+	margin:0px;
+	list-style: none;
+	font-size:30px;
+	font-weight: lighter;
+	font-family: 'Lora', serif;
+	text-transform: uppercase;
 	background-color:yellow;
-margin-left: 460px;
-margin-right: 550px;
-padding: 5px;
-}
+	}
 
-#sea	{
-	border-style:2px black solid;
-	background-color:white;
-}
+ul li a  {
+	font-family: Arial;
+	color:black;
+	font-size:18px;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding:20px;
 
 }
 ol {
 
 	font-size:2.2em;
 	list-style-position:outside;
-	background-color:yellow;
 	width:20%;
 	margin-right:100%;
 	margin-left:60%;
@@ -110,30 +79,86 @@ ol {
 	display: inline;
 	text-align: center;
 	line-height: 1.5em;
+	}
+#slogan1 	{ /*explanation of baseline potentials */
 	
+	font-size:22px;
+	width:400px;
+	margin-top: -40px;
+	line-height: 1.5em;
+	border-right: 2px solid;
+	border-left:2px solid;
+	padding:10px;
 }
-#list {
+
+#seagull	{ /*picture of bird next to explanation*/
+	height: 400px;
+padding: 35px;
+margin-top: -380px;
+margin-left: 403px;
+}
+#back { /*FIND MY BASELINE Header */
+	
+	font-size:40px;
+	background-color:yellow;
+margin-left: 460px;
+margin-right: 500px;
+padding: 5px;
+border:black 10px solid;
+}
+
+#fitness { /*fitness header */
+	
+	margin-left: 600px;
+margin-top: -420px;
+}
+#fit { /*picture of fitness with me and Anthony*/
+	margin-left: 520px;
+	margin-top: -8px;
+}
+
+#nutri	{ /*nutrition "PICTURE" under Nutrition header*/
+	margin-left: -650px;
+margin-top: -30px;
+}
+#wrapper{ /* div element header enclosing "1-ON-1 coaching and list" */
+	background-image: url("fullsizerender.jpg");
+}
+
+#meet	{ /* 1 on 1 personal coaching headline */
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 250%;
+background-color:yellow;
+width: 80%;
+line-height: 2em;
+padding: 5px%;
+margin-left: 92px;
+margin-top: 56px;
+}
+
+#find	{
+	background-image:url("IMG_2279.JPG");
+}
+
+
+
+
+#sea	{
+	border-style:2px black solid;
+	background-color:white;
+}
+
+#list { /*ordered list at bottom of page within div */
 	font-size:2.2em;
 	display: inline;
 	line-height:2.2em;
+	color:white;
 }
 
 
 
+	
 
-ul	{
-	list-style-position:inside;
-	font-size:30px;
-	font-weight: lighter;
-	font-family: 'Lora', serif;
-	text-transform: uppercase;
-	border-width: thick, black;
-	width:100%;
-	height:1%;
-	background-color:yellow;
-	line-height: 200%;
-	text-decoration: underline;
-}
 
 
 a[href="mailto:feteezuk@gmail.com"] {
@@ -142,7 +167,5 @@ a[href="mailto:feteezuk@gmail.com"] {
 	position: relative;
 	left: 20px;
 }
-#fit {
-	margin-left: 520px;
-	margin-top: -8px;
-}
+
+
