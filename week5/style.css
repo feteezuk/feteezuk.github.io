@@ -6,12 +6,51 @@ body	{
 	border-bottom: #D8D3D1;
 
 }
+header {
+	margin-left:530px;
+	  margin-right: 60%;
+  	display: inline;
+  	width:40%;
+}
+nav ul li {
+ 
+  width: 20%;
+  float: left;
+
+
+
+}
+#nav1 {
+	
+	background:#D8D3D1;
+	width:40%;
+	padding:20px;
+	padding-bottom:40px;
+	margin-right:auto;
+	margin-left:330px;
+	  margin-top: 0px;
+  
+}
+#tbpic {
+	float:left;
+	display:inline;
+	margin-top:115px;
+	margin-left:250px;
+	
+	width:0px;
+}
+
+
+
+
 #together {
 	background:#00C3E3;
 
 }
 #bug {
 	background:#00C3E3;
+	  margin-left: -120px;
+  float: left;
 }
 #love1 {
 	width:500px;
@@ -59,9 +98,9 @@ body	{
 #par6 {
 	
 	float:right;
-	margin-bottom:200px;
+	
 	margin-top: -292px;
-	margin-right: 250px;
+	margin-right: -159px;
 }
 #par7 {
 	font-size:1.5em;
@@ -69,7 +108,7 @@ body	{
 	margin-left:382px;
 }
 
-ul {
+#list {
 	display:inline-block;
 	list-style-type:square;
 	font-size:2em;
@@ -81,13 +120,13 @@ ul {
 	float: right;
 
 }
+#justify {
+	background-color:yellow;
+}
 h1 {
 	font-size:3.5em;
-	border-bottom:5px solid #D8D3D1;
-	border-right:600px; 
-	width-left:200px;
-	margin-left:350px;
-	margin-right:350px;
+	width: 600px;
+ 	margin-left: 300px;
 
 
 }
@@ -102,7 +141,14 @@ h3 {
 	margin-right:auto;
 
 }
-h4 {
+footer {
+	display:block;
+	float:left;
+ 	margin-left:506px;
+  padding: 20px;
+  width: 100px;
+  margin-top:-16px;
+  margin-bottom: 0px;
 
 
 
