@@ -1,42 +1,162 @@
-body	{
-	text-align:center;
-	font-size:20px;
-	background:#00C3E3;
+body {
+	font-size:1.0em;
+	background: url("http://i.imgur.com/TftSxHo.jpg?1") no-repeat center center fixed; 
+ 	-webkit-background-size: 0-auto;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ 	opacity:.4;
+}
+h1 {
+	font-size:6.5em;
+	width:500px;
+	background-color:black;
 	color:white;
-	border-bottom: #D8D3D1;
+	margin-left:278px;
+	padding:20px;
+	height:30px;
 
 }
-header {
-	margin-left:530px;
-	  margin-right: 60%;
-  	display: inline;
-  	width:40%;
+h3 {
+	color:#00ff00;
+	font-size:3.0em;
+	margin-top:-534px;
+	line-height:2em;
+	width:856px;
+	margin-left:97px;
 }
-nav ul li {
- 
-  width: 20%;
-  float: left;
+nav {
 
-
-
-}
-#nav1 {
+ 	
 	
-	background:#D8D3D1;
-	width:40%;
+	padding:20px;
+	width:200px;
+}
+ul {
+	float:left;
+	
+	padding:20px;
+	width:200px;
+}
+a{
+	color:white;
+
+}
+#wrapper2 {
+	
+	width:1200px;
+	height:900px;
+}
+#class {
+width:1000px;
+}
+#class1 {
+	background-color:yellow;
+}
+a.class1 {
+	width:500px;
+}
+img {
+
+	width:105px;
+	margin-left:0px;
+	margin-bottom:-443px;
+}
+
+
+a href {
+	width:1198px;
+	height:680px;
+	margin-top:-213px;
+
+}
+li a{
+	color:white;
+	
+	background-color:black;
+
+}
+li {
+	padding:20px;
+	background-color:black;
+
+}
+a:hover {
+	color:blue;
+
+}
+#header {
+	background-image:url("");
+	width:1005px;
+	height:1192px;
+	margin-top:-352px;
+	margin-left:107px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+}
+
+
+
+
+	
+}
+
+#nav1 {
+	background-image:url("http://www.edgymix.com/wp-content/uploads/2012/07/2012-NJ-hot-air-balloon-festival-642x250.jpg");
+
+	
+	width:50%;
 	padding:20px;
 	padding-bottom:40px;
 	margin-right:auto;
 	margin-left:330px;
 	  margin-top: 0px;
-  
+ }
+
+
+#background {
+	width:150px;
+	margin-left:-1610px;
+
 }
+
+
+#tbpic1 {
+	float:left;
+	margin-left:1px;
+	margin-top:-2px;
+}
+
 #tbpic {
 	float:left;
-	display:inline;
+	display:inline-block;
 	margin-top:115px;
 	margin-left:250px;
-	
+	height:60px;
+	padding-right:20px;
 	width:0px;
 }
 
@@ -49,33 +169,43 @@ nav ul li {
 }
 #bug {
 	background:#00C3E3;
-	  margin-left: -120px;
-  float: left;
+	  width:960px;
+	  margin:0 auto;
 }
 #love1 {
-	width:500px;
-	margin-right:300px;
+	width:965px;
+	margin:0 auto;
+
 }
 #together {
 	border-bottom:#D8D3D1 solid 5px;
 	width:600px;
 }
 #par1 {
-	font-size:1.5em;
-	width:400px;
+	font-size:1.7em;
+	width:515px;
 	line-height:2em;
 	margin-left:650px;
-	margin-top:-420px;
+	margin-top:34px;
 }
 #par2 {
 	margin-bottom:50px;
 
 }
 #par3 {
+		background: url("http://i.imgur.com/7rN1Li7.jpg?1") no-repeat center center fixed; 
+ 	-webkit-background-size: 0-auto;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
 		border-bottom:5px solid #D8D3D1;
 		margin-left:auto;
 		margin-right:auto;
-		width:600px;
+		width:1400px;
+		height:600px;
+}
+#par3.5 {
+
 }
 #par4 {
 	font-size:2.0em;
@@ -121,34 +251,15 @@ nav ul li {
 
 }
 #justify {
+	display:inline-block;
 	background-color:yellow;
-}
-h1 {
-	font-size:3.5em;
-	width: 600px;
- 	margin-left: 300px;
-
-
-}
-h2 {
-	font-size:2em;
-
-}
-h3 {
-	font-size:2.5em;
-	border-bottom:5px solid black;
-	margin-left:auto;
-	margin-right:auto;
 
 }
 footer {
-	display:block;
-	float:left;
- 	margin-left:506px;
-  padding: 20px;
-  width: 100px;
-  margin-top:-16px;
-  margin-bottom: 0px;
+	background-color:red;
+	height:300px;
+}
+
 
 
 
